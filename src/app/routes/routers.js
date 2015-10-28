@@ -99,10 +99,6 @@ module.exports = function(parent, services, options) {
 			}
 			// route exports
 			switch (key) {
-				case 'index':
-					method = 'get';
-					path = '/';
-					break;
 				case 'login':
 					method = 'get';
 					path = '/auth/local/login';
@@ -132,21 +128,9 @@ module.exports = function(parent, services, options) {
 					method = 'get';
 					path = '/logout';
 					break;
-				case 'profile':
-					method = 'get';
-					path = '/account/profile';
-					break;
-				case 'dashboard':
-					method = 'get';
-					path = '/account/dashboard';
-					break;
 				case 'changeLanguage':
 					method = 'get';
 					path = '/language/:' + '_newlanguage';
-					break;
-				case 'addNewTool':
-					method = 'post';
-					path = '/api/tools';
 					break;
 				default:
 					throw new Error('unrecognized route: ' + name + '.' + key);

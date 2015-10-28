@@ -1,2 +1,2 @@
-# bon-in-a-box-frontend
-Bon in a box project: Frontend
+# Indominus filius
+Federated registration server frontend

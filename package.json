@@ -1,5 +1,5 @@
 {
-  "name": "bon-in-a-box-frontend",
+  "name": "indominus-filius",
   "version": "0.0.1",
   "private": true,
   "description": "Bon in a box project frontend layer of web application",
@@ -13,14 +13,6 @@
     "url": "https://github.com/valegrajales/bon-in-a-box-frontend"
   },
   "contributors": [
-    {
-      "name": "Carlos Cubillos",
-      "email": "email de Carlos"
-    },
-    {
-      "name": "Cesar",
-      "email": "email de Cesar"
-    },
     {
       "name": "Valentina Grajales",
       "email": "valegrajales@gmail.com",
